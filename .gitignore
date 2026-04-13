@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/*.log
+
+# Project outputs
+output/*
+!output/.gitkeep
+output/*.wav
+output/*.mp3
+output/*.m4a
+output/*.ogg
+output/*.flac
+output/*.tmp
